@@ -59,10 +59,10 @@ class Campeonato_Brasileiro
         Console.Clear();
         Console.WriteLine("Tabela do Campeonato:\n");
 
-        foreach (string time in AdicionarTime){
-            Console.WriteLine($"Time: {time}");
+        foreach (string Time in ListaTimes){
+            Console.WriteLine($"Time: {Time}");
         }
-        // Pode ser uma tabela pré-definida ou uma que você vá construindo ao adicionar times e pontuações.
+      
         Console.WriteLine("A tabela está vazia.\n");
         MenuPrincipal(); // Após ver a tabela, voltamos ao menu principal.
     
@@ -72,8 +72,7 @@ class Campeonato_Brasileiro
         Console.Clear();
         Console.WriteLine("Adicionar Pontuação da Rodada:\n");
 
-        // Aqui você pode adicionar a lógica para adicionar a pontuação de uma rodada.
-        // Pode ser a pontuação de um time específico, por exemplo.
+        // Aqui preciso adicionar a lógica para adicionar a pontuação de uma rodada.
         Console.WriteLine("Pontuação da rodada foi adicionada com sucesso!\n");
         MenuPrincipal(); // Após adicionar a pontuação, voltamos ao menu principal.
     
