@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desktop\\Desktop\\C#\\C#.csproj",
+      "projectUniqueName": "C:\\Users\\Desktop\\Documents\\GitHub\\Projeto em C#\\C#\\Campeonato_Brasileiro\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "C:\\Users\\Desktop\\Desktop\\C#\\C#.csproj",
+      "projectPath": "C:\\Users\\Desktop\\Documents\\GitHub\\Projeto em C#\\C#\\Campeonato_Brasileiro\\C#.csproj",
       "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desktop\\Desktop\\C#\\obj\\",
+      "outputPath": "C:\\Users\\Desktop\\Documents\\GitHub\\Projeto em C#\\C#\\Campeonato_Brasileiro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config"

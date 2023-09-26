@@ -14,18 +14,19 @@ class Time
     }
 }
 
-
 class Campeonato_Brasileiro
 {        
         static List<Time> ListaTimes = new List<Time>();
         static void Main(string[] args)
     {
-        Console.WriteLine("Campeonato Brasileiro\n");
+        Console.WriteLine("*********************");
+        Console.WriteLine("Campeonato Brasileiro");
+        Console.WriteLine("*********************\n");
         MenuPrincipal();
     }
     static void MenuPrincipal(){
 
-        Console.WriteLine("Digite 1 para adicionar um time");
+        Console.WriteLine("\nDigite 1 para adicionar um time");
         Console.WriteLine("Digite 2 ver a tabela");
         Console.WriteLine("Digite 3 adicionar a pontuação da rodada");
         Console.WriteLine("Digite 0 para Sair\n");
@@ -63,7 +64,7 @@ class Campeonato_Brasileiro
         ListaTimes.Add(novoTime);
 
         Console.WriteLine($"Time '{nomeTime}' foi adicionado com sucesso!\n");
-        MenuPrincipal(); // Após adicionar o time, voltamos ao menu principal.
+        MenuPrincipal();
     }
     static void VerTabela()
     {
@@ -87,7 +88,7 @@ class Campeonato_Brasileiro
     Console.Write("Qual time?\n");
     string nomeTime = Console.ReadLine()!;
 
-    Time timeSelecionado = ListaTimes.Find(time => time.Nome == nomeTime);
+    Time timeSelecionado = ListaTimes.Find(time => time.Nome == nomeTime)!;
 
     if (timeSelecionado != null)
     {
@@ -124,8 +125,4 @@ class Campeonato_Brasileiro
 
     MenuPrincipal();
 }
-
-
-
-
     }
